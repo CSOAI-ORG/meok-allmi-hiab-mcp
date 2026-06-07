@@ -1,0 +1,37 @@
+{
+  "name": "meok-allmi-hiab-mcp",
+  "title": "Meok Allmi Hiab Mcp",
+  "description": "UK lorry-loader (hiab) compliance \u2014 ALLMI ACoP, BS 7121-4 lift planning, LOLER Thorough Examination, CPCS A36 / A40 / A73, brick-grab POD, contract-lift triage. For builders' merchants + specialist hiab operators. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "generate_hiab_lift_plan"
+    },
+    {
+      "name": "triage_contract_lift_threshold"
+    },
+    {
+      "name": "check_allmi_thorough_examination"
+    },
+    {
+      "name": "check_cpcs_a36"
+    },
+    {
+      "name": "check_slinger_a40_a73"
+    },
+    {
+      "name": "capture_brick_grab_pod"
+    },
+    {
+      "name": "flag_delivery_rejection_risk"
+    },
+    {
+      "name": "audit_pre_delivery_walkaround"
+    }
+  ]
+}

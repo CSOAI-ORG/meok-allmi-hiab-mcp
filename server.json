@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CSOAI-ORG/meok-allmi-hiab-mcp",
+  "description": "UK lorry-loader (hiab) compliance \u2014 ALLMI ACoP, BS 7121-4 lift planning, LOLER Thorough",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/CSOAI-ORG/meok-allmi-hiab-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "identifier": "meok-allmi-hiab-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "registryType": "pypi",
+      "runtimeHint": "python"
+    }
+  ]
+}

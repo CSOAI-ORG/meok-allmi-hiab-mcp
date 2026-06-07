@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-allmi-hiab-mcp",
+    "description": "UK lorry-loader (hiab) compliance \u2014 ALLMI ACoP, BS 7121-4 lift planning, LOLER Thorough",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-allmi-hiab-mcp"
+      }
+    ],
+    "capabilities": [
+      "generate_hiab_lift_plan",
+      "triage_contract_lift_threshold",
+      "check_allmi_thorough_examination",
+      "check_cpcs_a36",
+      "check_slinger_a40_a73",
+      "capture_brick_grab_pod",
+      "flag_delivery_rejection_risk",
+      "audit_pre_delivery_walkaround"
+    ]
+  }
+}

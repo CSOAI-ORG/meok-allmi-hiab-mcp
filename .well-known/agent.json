@@ -1,0 +1,95 @@
+{
+  "name": "meok-allmi-hiab-mcp",
+  "description": "UK lorry-loader (hiab) compliance \u2014 ALLMI ACoP, BS 7121-4 lift planning, LOLER Thorough",
+  "url": "https://proofof.ai/scorecard/meok-allmi-hiab-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "generate_hiab_lift_plan",
+      "name": "Generate Hiab Lift Plan",
+      "description": "generate_hiab_lift_plan via meok-allmi-hiab-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "triage_contract_lift_threshold",
+      "name": "Triage Contract Lift Threshold",
+      "description": "triage_contract_lift_threshold via meok-allmi-hiab-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_allmi_thorough_examination",
+      "name": "Check Allmi Thorough Examination",
+      "description": "check_allmi_thorough_examination via meok-allmi-hiab-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_cpcs_a36",
+      "name": "Check Cpcs A36",
+      "description": "check_cpcs_a36 via meok-allmi-hiab-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_slinger_a40_a73",
+      "name": "Check Slinger A40 A73",
+      "description": "check_slinger_a40_a73 via meok-allmi-hiab-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "capture_brick_grab_pod",
+      "name": "Capture Brick Grab Pod",
+      "description": "capture_brick_grab_pod via meok-allmi-hiab-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "flag_delivery_rejection_risk",
+      "name": "Flag Delivery Rejection Risk",
+      "description": "flag_delivery_rejection_risk via meok-allmi-hiab-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "audit_pre_delivery_walkaround",
+      "name": "Audit Pre Delivery Walkaround",
+      "description": "audit_pre_delivery_walkaround via meok-allmi-hiab-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

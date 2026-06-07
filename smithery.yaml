@@ -1,0 +1,34 @@
+name: meok-allmi-hiab-mcp
+description: 'UK lorry-loader (hiab) compliance — ALLMI ACoP, BS 7121-4 lift planning, LOLER Thorough'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-allmi-hiab-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: generate_hiab_lift_plan
+  description: generate hiab lift plan
+- name: triage_contract_lift_threshold
+  description: triage contract lift threshold
+- name: check_allmi_thorough_examination
+  description: check allmi thorough examination
+- name: check_cpcs_a36
+  description: check cpcs a36
+- name: check_slinger_a40_a73
+  description: check slinger a40 a73
+- name: capture_brick_grab_pod
+  description: capture brick grab pod
+- name: flag_delivery_rejection_risk
+  description: flag delivery rejection risk
+- name: audit_pre_delivery_walkaround
+  description: audit pre delivery walkaround
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'
