@@ -57,7 +57,7 @@ pip install meok-allmi-hiab-mcp
 - **Pro** — £119/mo (multi-driver, ePOD export, BMF audit-pack)
 - **Fleet** — £499/mo (50+ trucks, merchant-system integration, SLA)
 
-[Subscribe Pro → £119/mo](https://buy.stripe.com/4gMfZja8seUWbEx1Uc8k915) · [Talk to Nick](mailto:nicholas@meok.ai)
+[Subscribe Pro → £119/mo](https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j) · [Talk to Nick](mailto:nicholas@meok.ai)
 
 ## Regulatory basis
 
