@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-allmi-hiab-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-allmi-hiab-mcp"
+      ]
+    }
+  }
+}
