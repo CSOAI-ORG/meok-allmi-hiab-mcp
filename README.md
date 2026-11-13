@@ -17,7 +17,6 @@ This MCP turns the whole stack into sub-second tool calls — including the **ma
 
 **Wedge customers:** the TOP-6 UK builders' merchants — Travis Perkins, Jewson, MKM, Selco, Buildbase, Howdens — plus ~800-1,500 specialist hiab operators.
 
-**Payback:** a single avoided rejected delivery (£200-£450) covers a month of Pro tier.
 
 ## Install
 
@@ -50,14 +49,11 @@ pip install meok-allmi-hiab-mcp
 | `flag_delivery_rejection_risk` | Score rejection risk + emit pre-written foreman SMS with ETA + driver + VRN. |
 | `audit_pre_delivery_walkaround` | 25-point HSE COP L113 walkaround — flags blocking failures. |
 
-## Pricing
+## How MEOK charges
 
-- **Free** — MIT self-host
-- **Starter** — £39/mo (signed attestations + email support)
-- **Pro** — £119/mo (multi-driver, ePOD export, BMF audit-pack)
-- **Fleet** — £499/mo (50+ trucks, merchant-system integration, SLA)
+MEOK has no subscriptions and no tiers. You pay per job, and only when the agreed artifact has been delivered to you. There is no public price list. See <https://meok.ai/pricing>.
 
-[Subscribe Pro → £119/mo](https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t) · [Talk to Nick](mailto:nicholas@meok.ai)
+This repository's source is MIT-licensed and free to self-host.
 
 ## Regulatory basis
 
